@@ -43,12 +43,15 @@ class Ordenador:
 
         return resultado
 
+    import random
+
     @staticmethod
     def generar_lista(tamano, rango):
         """
         Genera una lista de enteros aleatorios.
         :param tamano: Número de elementos en la lista.
-        :param rango: Rango máximo para los valores (0 a rango).
+        :param rango: Rango máximo para los valores (-rango a rango).
         :return: Lista de enteros.
         """
-        return [random.randint(0, rango) for _ in range(tamano)]
+        return [random.randint(-rango, rango) for _ in range(tamano)]
+
