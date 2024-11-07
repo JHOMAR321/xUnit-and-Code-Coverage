@@ -53,5 +53,5 @@ class Ordenador:
         :param rango: Rango máximo para los valores (-rango a rango).
         :return: Lista de enteros.
         """
-        return [random.randint(-rango, rango) for _ in range(tamano)]
+        return [random.randint(0, rango) for _ in range(tamano)]
 

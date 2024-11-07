@@ -1,7 +1,5 @@
 from main.ordenador import Ordenador
 
-from main.ordenador import Ordenador
-
 _sort = Ordenador()
 
 # Lista de enteros
